@@ -1,9 +1,9 @@
-import Image1 from "../../assets/BusinessLaw.svg";
-import Image2 from "../../assets/PartnershipLaw.svg";
-import Image3 from "../../assets/RealEstateLaw.svg";
-import Image4 from "../../assets/BusinessLaw2.svg";
-import Image5 from "../../assets/LandlordDisputes.svg";
-import Image6 from "../../assets/ElderAbuse.svg";
+import BusinessLaw from "../../assets/BusinessLaw.svg";
+import PartnershipLaw from "../../assets/PartnershipLaw.svg";
+import RealEstateLaw from "../../assets/RealEstateLaw.svg";
+import BusinessLaw2 from "../../assets/BusinessLaw2.svg";
+import LandlordDisputes from "../../assets/LandlordDisputes.svg";
+import ElderAbuse from "../../assets/ElderAbuse.svg";
 
 const Section4 = () => {
     return (
@@ -15,13 +15,13 @@ const Section4 = () => {
                 {/* 1 */}
                 <div className="flex items-center  gap-6">
                     <div className="relative">
-                        <img src={Image1} alt="businesslaw" />
+                        <img src={BusinessLaw} alt="businesslaw" />
                         <h3 className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-center font-semibold text-white text-[20px]">
                             BUSINESS LAW
                         </h3>
                     </div>
                     <div className="relative ">
-                        <img src={Image2} alt="partnershiplaw" />
+                        <img src={PartnershipLaw} alt="partnershiplaw" />
                         <h3 className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-center font-semibold text-white text-[20px]">
                             Partnership LAW
                         </h3>
@@ -30,13 +30,13 @@ const Section4 = () => {
                 {/* 2 */}
                 <div className="flex items-center  gap-6">
                     <div className="relative">
-                        <img src={Image3} alt="businesslaw" />
+                        <img src={RealEstateLaw} alt="businesslaw" />
                         <h3 className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-center font-semibold text-white text-[20px]">
                             REAL ESTATE LAW
                         </h3>
                     </div>
                     <div className="relative">
-                        <img src={Image4} alt="partnershiplaw" />
+                        <img src={BusinessLaw2} alt="partnershiplaw" />
                         <h3 className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-center font-semibold text-white text-[20px]">
                             BUSINESS LAW
                         </h3>
@@ -45,13 +45,13 @@ const Section4 = () => {
                 {/* 3 */}
                 <div className="flex items-center  gap-6">
                     <div className="relative">
-                        <img src={Image5} alt="businesslaw" />
+                        <img src={LandlordDisputes} alt="businesslaw" />
                         <h3 className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-center font-semibold text-white text-[20px]">
                             LANDLORD DISPUTES
                         </h3>
                     </div>
                     <div className="relative ">
-                        <img src={Image6} alt="partnershiplaw" />
+                        <img src={ElderAbuse} alt="partnershiplaw" />
                         <h3 className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-center font-semibold text-white text-[20px]">
                             ELDER ABUSE
                         </h3>
