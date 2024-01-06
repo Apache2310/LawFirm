@@ -1,6 +1,5 @@
 import NavBar from "../NavBar/NavBar";
 import Hero from "../../assets/Hero.png";
-import message from "../../assets/Message.png";
 
 
 const HeroSection = () => {
@@ -20,20 +19,15 @@ const HeroSection = () => {
                         eget, hac massa gravida arcu interdum proin curae.
                     </p>
 
-                    <div className="bg-[#282828] rounded-full p-1 w-[70%] relative overflow-hidden">
+                    <div className="bg-[#282828] rounded-full p-1 w-[80%] relative">
                         <input
                             type="email"
-                            className="bg-[#282828] rounded-full p-1 w-[73.5%] relative overflow-hidden"
+                            className="bg-[#282828] rounded-full  w-[77%] relative overflow-hidden translate-x-0.25"
                             placeholder="Enter your email address"
                         />
                         <button className="bg-[#E3B748] text-black  p-4 font-semibold  rounded-full">
                             Let’s Talk
                         </button>
-                        <img
-                            src={message}
-                            className="absolute top-5 left-6 pointer-events-none"
-                            alt="message icon"
-                        />
                     </div>
 
                 </div>
